@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RequestHeaderSerializer: NSObject {
+public class RequestHeaderSerializer: NSObject {
     lazy public var headers = [String: String]()
     
     public func setAutherizationHeader(username: String, password: String) {
